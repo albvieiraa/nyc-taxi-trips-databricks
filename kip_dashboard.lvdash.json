@@ -507,6 +507,98 @@
             "width": 6,
             "height": 5
           }
+        },
+        {
+          "widget": {
+            "name": "3cc957de",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "349e4cde",
+                  "fields": [
+                    {
+                      "name": "trip_date",
+                      "expression": "`trip_date`"
+                    },
+                    {
+                      "name": "sum(total_revenue)",
+                      "expression": "SUM(`total_revenue`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "line",
+              "encodings": {
+                "x": {
+                  "fieldName": "trip_date",
+                  "scale": {
+                    "type": "temporal"
+                  }
+                },
+                "y": {
+                  "fieldName": "sum(total_revenue)",
+                  "scale": {
+                    "type": "quantitative"
+                  }
+                }
+              },
+              "mark": {
+                "colors": [
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 2
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 2
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 3
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 4
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 5
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 6
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 7
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 8
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 9
+                  },
+                  {
+                    "themeColorType": "visualizationColors",
+                    "position": 10
+                  }
+                ]
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 11,
+            "width": 6,
+            "height": 4
+          }
         }
       ],
       "pageType": "PAGE_TYPE_CANVAS"
