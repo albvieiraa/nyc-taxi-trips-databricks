@@ -11,6 +11,26 @@ Projeto de análise de dados utilizando SQL e Databricks, com foco em modelagem 
 - Criar tabelas prontas para visualização e dashboards
 
 ---
+## 📁 Estrutura dos Dados
+
+├── notebooks
+│   ├── setup
+│   ├── bronze
+│   ├── silver
+│   └── gold
+│
+├── dashboards
+│   ├── README.md
+│   └── images
+│       └── kpi_dashboar_001.png
+│
+├── docs
+│   ├── DATA_DICTIONARY_NYC_YELLOW_TAXI.md
+│   └── GOLD_LAYER_DOCUMENTATION.md
+│
+└── README.md
+
+---
 
 ## 🧱 Arquitetura de Dados
 
