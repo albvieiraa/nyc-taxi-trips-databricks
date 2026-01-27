@@ -22,7 +22,8 @@ Projeto de análise de dados utilizando SQL e Databricks, com foco em modelagem 
 ├── dashboards
 │   ├── README.md
 │   └── images
-│       └── kpi_dashboar_001.png
+|       └── kpi_dashboard
+│       └── kpi_dashboard_001.png
 │
 ├── docs
 │   ├── DATA_DICTIONARY_NYC_YELLOW_TAXI.md
